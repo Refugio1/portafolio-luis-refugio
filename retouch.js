@@ -1,4 +1,13 @@
-const retouchPhotos=['7419','7504','7630','7656','7712'].map((id,i)=>({id,name:`Toma ${String(i+1).padStart(2,'0')}`,before:`assets/retouch/dsc_${id}-before.webp`,after:`assets/retouch/dsc_${id}-after.webp`,ratio:['7504','7656'].includes(id)?2/3:3/2}));
+const retouchPhotos=[
+  {id:'7419',before:'assets/retouch/dsc_7419-before.webp',after:'assets/retouch/dsc_7419-after.webp',ratio:3/2},
+  {id:'7504',before:'assets/retouch/dsc_7504-before.webp',after:'assets/retouch/dsc_7504-after.webp',ratio:2/3},
+  {id:'7630',before:'assets/retouch/dsc_7630-before.webp',after:'assets/retouch/dsc_7630-after.webp',ratio:3/2},
+  {id:'7656',before:'assets/retouch/dsc_7656-before.webp',after:'assets/retouch/dsc_7656-after.webp',ratio:2/3},
+  {id:'7712',before:'assets/retouch/dsc_7712-before.webp',after:'assets/retouch/dsc_7712-after.webp',ratio:3/2},
+  {id:'rdo_5',before:'assets/retouch/rdo_5-before.webp',after:'assets/retouch/rdo_5-after.webp',ratio:2/3},
+  {id:'rdo_15',before:'assets/retouch/rdo_15-before.webp',after:'assets/retouch/rdo_15-after.webp',ratio:2/3},
+  {id:'rdo_55',before:'assets/retouch/rdo_55-before.webp',after:'assets/retouch/rdo_55-after.webp',ratio:2/3}
+].map((item,i)=>({...item,name:`Toma ${String(i+1).padStart(2,'0')}`}));
 const compareStage=document.querySelector('#retouch-compare'),compareRange=document.querySelector('#retouch-range'),retouchChoices=document.querySelector('#retouch-choices');
 let retouchIndex=0;
 function setRetouchSplit(value){const split=Math.min(100,Math.max(0,Number(value)));compareRange.value=split;compareStage.style.setProperty('--split',split+'%');compareRange.setAttribute('aria-valuetext',`${Math.round(split)}% antes, ${100-Math.round(split)}% después`)}
@@ -7,7 +16,7 @@ function selectRetouch(index){
   compareStage.style.setProperty('--photo-ratio',item.ratio);
   document.querySelector('#retouch-before').src=item.before;document.querySelector('#retouch-before').alt=`${item.name}: fotografía original, antes del retoque`;
   document.querySelector('#retouch-after').src=item.after;document.querySelector('#retouch-after').alt=`${item.name}: fotografía después del retoque`;
-  document.querySelector('#retouch-position').textContent=`${item.name} / 05`;
+  document.querySelector('#retouch-position').textContent=`${item.name} / ${String(retouchPhotos.length).padStart(2,'0')}`;
   compareRange.setAttribute('aria-label',`Comparar antes y después de ${item.name}`);
   [...retouchChoices.children].forEach((button,i)=>button.setAttribute('aria-pressed',String(i===retouchIndex)));setRetouchSplit(50);
 }

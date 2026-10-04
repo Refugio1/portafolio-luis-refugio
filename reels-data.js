@@ -159,6 +159,22 @@ const reelCollections = {
       "name": "Eurobike",
       "label": "Refacciones y accesorios",
       "source": "403.mp4"
+    },
+    {
+      "id": "motion-22",
+      "src": "assets/reels/motion-22.mp4",
+      "poster": "assets/reels/motion-22.png",
+      "name": "Weiss Technik",
+      "label": "Cámaras de humedad · ensayos",
+      "source": "weiss-extra-13.mp4"
+    },
+    {
+      "id": "motion-23",
+      "src": "assets/reels/motion-23.mp4",
+      "poster": "assets/reels/motion-23.png",
+      "name": "Weiss Technik",
+      "label": "Cámaras Drive-In con dinamómetro",
+      "source": "weiss-extra-15.mp4"
     }
   ],
   "ai": [
@@ -225,14 +241,6 @@ const reelCollections = {
       "name": "Dustless Blasting",
       "label": "Avatar IA · contenido industrial",
       "source": "09.mp4"
-    },
-    {
-      "id": "ai-09",
-      "src": "assets/reels/ai-09.mp4",
-      "poster": "assets/reels/ai-09.webp",
-      "name": "Kioscos",
-      "label": "Avatar IA · presentación",
-      "source": "Kioscos - toño.mp4"
     }
   ]
 };

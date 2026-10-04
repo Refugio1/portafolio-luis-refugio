@@ -1,7 +1,7 @@
 const newClientProjects = [
   {
     "id": "freseniuss",
-    "name": "Freseniuss",
+    "name": "Fresenius",
     "category": "Salud & nutrición",
     "color": "#183b51",
     "description": "Comunicación visual para salud y nutrición: campañas, materiales editoriales y contenido audiovisual.",

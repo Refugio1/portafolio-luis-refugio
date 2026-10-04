@@ -8,11 +8,11 @@ Si recibiste el ZIP, primero extrae todo su contenido a una carpeta.
 
 QUÉ INCLUYE
 - Portada con título metálico y acentos verde lima.
-- 9 galerías de marca con 158 piezas: 156 imágenes y 2 videos, con miniaturas, flechas, teclado y deslizamiento táctil.
-- Galerías digitales: Freseniuss, 6 imágenes; Toyota Guanajuato, 3 imágenes. Sección independiente de Branding y diseño editorial: 11 PDF seleccionados (7 de Freseniuss y 4 de Toyota), filtrables por cliente. Los PDF se presentan como publicaciones interactivas con 61 páginas en total, efecto de hojeo, selector de página, ampliación y descarga del original. Doble página para documentos verticales de varias páginas en escritorio; página individual en móvil y para formatos panorámicos. Los PDF de una sola página no muestran avance disponible.
+- 9 galerías de marca con 156 imágenes, con miniaturas, flechas, teclado y deslizamiento táctil.
+- Galerías digitales: Fresenius, 6 imágenes; Toyota Guanajuato, 3 imágenes. Sección independiente de Branding y diseño editorial: 11 PDF seleccionados (7 de Fresenius y 4 de Toyota), filtrables por cliente. Los PDF se presentan como publicaciones interactivas con 61 páginas en total, efecto de hojeo, selector de página, ampliación y descarga del original. Doble página para documentos verticales de varias páginas en escritorio; página individual en móvil y para formatos panorámicos. Los PDF de una sola página no muestran avance disponible.
 - UX/UI: carrusel de Legal Key, Alaya, Energy Opening, DB Trevor y Cero Uno Software, con texto al lado y un solo proyecto por vista. Capturas completas proporcionadas por Luis, ampliables y sin enlaces externos.
 - Portadas de marcas originales; al abrir sus galerías, los posts aparecen en mockups sociales superpuestos con miniaturas y navegación.
-- Video & Motion: 20 videos en carrusel con mockup de teléfono, controles y selección por miniaturas.
+- Video & Motion: 22 videos en carrusel con mockup de teléfono, controles y selección por miniaturas (incluye los 2 videos de Weiss Technik).
 - IA aplicada a marcas: 9 videos de avatares y contenido creado con IA, en un carrusel independiente con el mismo mockup.
 - Perfil, experiencia profesional y herramientas.
 - Menú fijo, descarga del CV y contacto a luisrefugio7@gmail.com y +52 782 194 9905.
@@ -30,14 +30,14 @@ Los datos de las piezas adicionales están en gallery-data.js. La sección UX/UI
 Los nuevos carruseles usan reels-data.js, media.js y media.css. Los 30 videos se optimizaron a MP4 H.264 con audio AAC y cuentan con portadas WebP. La reproducción inicia por acción del visitante; al cambiar de pieza o salir de la sección, se pausa el video. Solo se reproduce un video a la vez.
 
 ESTADO
-Las nuevas marcas usan clients-data.js, magazine.js, magazine.css y assets/clients. Sus seis videos y los PDF son copias del material proporcionado; las páginas del visor se prepararon como imágenes WebP y no requieren servicios externos. Una imagen idéntica de Freseniuss se incluyó una sola vez.
+Las nuevas marcas usan clients-data.js, magazine.js, magazine.css y assets/clients. Sus seis videos y los PDF son copias del material proporcionado; las páginas del visor se prepararon como imágenes WebP y no requieren servicios externos. Una imagen idéntica de Fresenius se incluyó una sola vez.
 Esta es una versión local. No se ha publicado en un dominio de internet.
 La carpeta contiene el sitio completo y puede alojarse como un sitio estático.
 
 Branding usa branding.js y branding.css. Los PDF solo aparecen en esta sección, conservando el visor de revista.
 
-Videos institucionales: 5 videos (2 de Freseniuss y 3 de Toyota), separados de las galerías digitales, en carrusel con laptop, flechas laterales y selector. Archivos: institutional.js y institutional.css.
+Videos institucionales: 5 videos (2 de Fresenius y 3 de Toyota), separados de las galerías digitales, en carrusel con laptop, flechas laterales y selector. Archivos: institutional.js y institutional.css.
 
-Fotos retocadas: 5 comparativas antes/después emparejadas por nombre DSC. JPG = antes; PNG = después. Se respeta la orientación EXIF y se usan copias WebP para el sitio, sin alterar los originales. Deslizador táctil, ratón y teclado; selector de tomas. Archivos: retouch.js, retouch.css, assets/retouch.
+Fotos retocadas: 8 comparativas antes/después emparejadas (5 tomas DSC y 3 tomas RDO). JPG = antes; PNG = después. Se respeta la orientación y se usan copias WebP para el sitio, sin alterar los originales. Deslizador táctil, ratón y teclado; selector de tomas. Archivos: retouch.js, retouch.css, assets/retouch.
 
 Créditos: diseño gráfico de las piezas realizado por Luis Refugio; en los videos, edición y cortes a partir del material audiovisual de las marcas, incluida Eurobike. Retirados el banner Toyota de violencia laboral, el video Eurobike de experiencia en tienda y la cápsula Fresubin.

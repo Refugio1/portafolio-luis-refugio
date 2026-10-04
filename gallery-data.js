@@ -530,7 +530,7 @@ const additionalGallery = {
       "src": "assets/gallery/legal-key-extra-13.webp",
       "thumb": "assets/gallery/legal-key-extra-13-thumb.webp",
       "type": "image",
-      "caption": "Servicios legales: el papel del abogado en tu proceso migratorio"
+      "caption": "Asesoría migratoria: orientación clave en tu proceso de visa"
     },
     {
       "src": "assets/gallery/legal-key-extra-14.webp",
@@ -572,7 +572,7 @@ const additionalGallery = {
       "src": "assets/gallery/legal-key-extra-20.webp",
       "thumb": "assets/gallery/legal-key-extra-20-thumb.webp",
       "type": "image",
-      "caption": "Invitación a consulta: agenda una asesoría legal de 20 minutos"
+      "caption": "Invitación a consulta: agenda una asesoría de 20 minutos"
     }
   ],
   "weiss": [
@@ -649,22 +649,10 @@ const additionalGallery = {
       "caption": "Relocalización de equipos: del desmontaje a la validación"
     },
     {
-      "src": "assets/gallery/weiss-extra-13.mp4",
-      "thumb": null,
-      "type": "video",
-      "caption": "Video de soluciones de ensayo ambiental de Weiss Technik"
-    },
-    {
       "src": "assets/gallery/weiss-extra-14.webp",
       "thumb": "assets/gallery/weiss-extra-14-thumb.webp",
       "type": "image",
       "caption": "Cobertura de servicio: tecnología alemana en Norteamérica"
-    },
-    {
-      "src": "assets/gallery/weiss-extra-15.mp4",
-      "thumb": null,
-      "type": "video",
-      "caption": "Video de tecnología y servicios de Weiss Technik"
     },
     {
       "src": "assets/gallery/weiss-extra-16.webp",
