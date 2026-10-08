@@ -40,4 +40,6 @@ Videos institucionales: 5 videos (2 de Fresenius y 3 de Toyota), separados de la
 
 Fotos retocadas: 8 comparativas antes/después emparejadas (5 tomas DSC y 3 tomas RDO). JPG = antes; PNG = después. Se respeta la orientación y se usan copias WebP para el sitio, sin alterar los originales. Deslizador táctil, ratón y teclado; selector de tomas. Archivos: retouch.js, retouch.css, assets/retouch.
 
-Créditos: diseño gráfico de las piezas realizado por Luis Refugio; en los videos, edición y cortes a partir del material audiovisual de las marcas, incluida Eurobike. Retirados el banner Toyota de violencia laboral, el video Eurobike de experiencia en tienda y la cápsula Fresubin.
+Packaging & Diseño de Empaque: Sección para Tequila Raíces de Orgullo con 3 ediciones de cajas rígidas (Añejo Cristalino, Añejo Tradicional y Extra Añejo). Incluye showcase con perspectiva 3D, halo ambiental adaptable, ficha técnica, selector interactivo de ediciones y visor modal de alta resolución. Archivos: packaging.js, packaging.css, assets/packaging/.
+
+Créditos: diseño gráfico de las piezas realizado por Luis Refugio; en los videos, edición y cortes a partir del material audiovisual de las marcas, incluida Eurobike. Retirados el banner Toyota de violencia laboral, el video Eurobike de experiencia en tienda y la cápsula Fresubin. Proyecto de Tequila Raíces de Orgullo realizado como diseñador gráfico freelance.

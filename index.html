@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="media.css?v=2">
   <link rel="stylesheet" href="magazine.css?v=1">
   <link rel="stylesheet" href="branding.css?v=1">
+  <link rel="stylesheet" href="packaging.css?v=2">
   <link rel="stylesheet" href="institutional.css?v=1">
   <link rel="stylesheet" href="retouch.css?v=2">
   <link rel="stylesheet" href="credits.css?v=1">
@@ -19,6 +20,7 @@
   <script src="clients-data.js?v=20261001-2" defer></script>
   <script src="reels-data.js?v=3" defer></script>
   <script src="app.js?v=20261001-1" defer></script>
+  <script src="packaging.js?v=2" defer></script>
   <script src="ux.js?v=20261001" defer></script>
   <script src="media.js?v=4" defer></script>
   <script src="magazine.js?v=1" defer></script>
@@ -30,7 +32,7 @@
   <a class="skip-link" href="#trabajos">Ir a los trabajos</a>
   <header class="header wrap">
     <a class="identity" href="#inicio" aria-label="Luis Refugio, inicio"><span class="monogram">lr<span>.</span></span><span>Luis Refugio<span class="identity-sub">Diseñador gráfico & multimedia</span></span></a>
-    <nav aria-label="Navegación principal"><a href="#trabajos">Trabajo</a><a href="#branding">Branding</a><a href="#ux-ui">UX/UI</a><a href="#movimiento">Videos</a><a href="#institucionales">Institucionales</a><a href="#ia-marcas">IA</a><a href="#retoque">Retoque</a><a href="#sobre-mi">Sobre mí</a><a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></nav>
+    <nav aria-label="Navegación principal"><a href="#trabajos">Trabajo</a><a href="#branding">Branding</a><a href="#packaging">Packaging</a><a href="#ux-ui">UX/UI</a><a href="#movimiento">Videos</a><a href="#institucionales">Institucionales</a><a href="#ia-marcas">IA</a><a href="#retoque">Retoque</a><a href="#sobre-mi">Sobre mí</a><a class="nav-contact" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a></nav>
   </header>
   <main>
     <section class="hero wrap" id="inicio" aria-labelledby="hero-title">
@@ -59,8 +61,47 @@
       <p class="credit-note">Diseño editorial y comunicación visual · Luis Refugio · Proyectos realizados en Estrasol.</p>
     </section>
 
+    <section class="packaging-section wrap" id="packaging" aria-labelledby="packaging-title">
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">03 /</span> PACKAGING & DISEÑO DE EMPAQUE</p><h2 id="packaging-title">Cultura destilada.<br><span>El arte del empaque.</span></h2></div><p class="section-note">Diseño de cajas rígidas para Tequila Raíces de Orgullo. Acabados premium, troquelado frontal y patrones inspirados en el arte sagrado wixárika.</p></div>
+      <div class="packaging-showcase" id="packaging-showcase">
+        <div class="packaging-toolbar"><span><i aria-hidden="true"></i> EDICIÓN ESPECIAL WIXÁRIKA · TEQUILA PREMIUM</span><span id="packaging-position" aria-live="polite">01 / 03</span></div>
+        <div class="packaging-stage">
+          <div class="packaging-visual-col">
+            <div class="packaging-card-frame" id="packaging-tilt-card">
+              <span class="packaging-badge-tag" id="packaging-badge-edition">Añejo Cristalino</span>
+              <button type="button" class="packaging-zoom-trigger" id="packaging-open-zoom" aria-label="Ampliar detalle del empaque" aria-haspopup="dialog">
+                <span class="packaging-zoom-hint"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35M11 8v6M8 11h6"/></svg> Ampliar detalle</span>
+                <img id="packaging-hero-img" src="assets/packaging/caja-wixarika-anejo-cristalino.png?v=2" alt="Caja rígida Tequila Raíces de Orgullo Añejo Cristalino" width="1254" height="1254" loading="lazy">
+              </button>
+              <div class="packaging-card-glow" aria-hidden="true"></div>
+            </div>
+          </div>
+          <div class="packaging-info-col">
+            <div class="packaging-copy">
+              <p class="packaging-edition-label" id="packaging-edition-label">TEQUILA RAÍCES DE ORGULLO</p>
+              <h3 id="packaging-name">Añejo Cristalino</h3>
+              <p class="packaging-description" id="packaging-description">Caja rígida premium en acabado negro obsidiana mate, intervenida con foil de cobre metálico en caliente y patrones de grecas sagradas wixárikas en bajorrelieve brillante. La ventana circular calada con ribete metálico exhibe con elegancia la transparencia y pureza del tequila cristalino.</p>
+              <div class="packaging-tags" id="packaging-tags"></div>
+              <div class="packaging-specs">
+                <div class="packaging-spec-item"><span class="spec-label">CLIENTE</span><strong class="spec-value" id="spec-client">Raíces de Orgullo</strong></div>
+                <div class="packaging-spec-item"><span class="spec-label">FORMATO</span><strong class="spec-value" id="spec-volume">700 ml · 40% Alc. Vol.</strong></div>
+                <div class="packaging-spec-item"><span class="spec-label">ACABADOS</span><strong class="spec-value" id="spec-finishes">Hot Stamping Cobre & Barniz UV</strong></div>
+                <div class="packaging-spec-item"><span class="spec-label">ESTRUCTURA</span><strong class="spec-value" id="spec-box">Caja rígida con ventana troquelada</strong></div>
+              </div>
+              <div class="packaging-actions">
+                <button type="button" class="packaging-cta-btn" id="packaging-inspect-btn"><span>Inspeccionar acabados</span><span class="cta-arrow" aria-hidden="true">↗</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="packaging-bottom"><span>Tequila 100% de Agave · Cosmovisión Wixárika · Tres ediciones artesanales</span><div class="packaging-arrows"><button type="button" id="packaging-prev" aria-label="Edición anterior">←</button><button type="button" id="packaging-next" aria-label="Edición siguiente">→</button></div></div>
+      </div>
+      <div class="packaging-selector" id="packaging-selector" role="group" aria-label="Elegir edición de Tequila"></div>
+      <p class="credit-note">Diseño de empaque y dirección visual: Luis Refugio · Cliente: Tequila Raíces de Orgullo · Proyecto freelance.</p>
+    </section>
+
     <section class="ux-section wrap" id="ux-ui" aria-labelledby="ux-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">03 /</span> DISEÑO UX/UI</p><h2 id="ux-title">De la identidad<br><span>a la experiencia.</span></h2></div><p class="section-note">Cinco proyectos digitales. Interfaces que conectan la personalidad de una marca con una forma clara de navegar.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">04 /</span> DISEÑO UX/UI</p><h2 id="ux-title">De la identidad<br><span>a la experiencia.</span></h2></div><p class="section-note">Cinco proyectos digitales. Interfaces que conectan la personalidad de una marca con una forma clara de navegar.</p></div>
       <div class="ux-showcase" id="ux-showcase">
         <div class="ux-toolbar"><span><i aria-hidden="true"></i> DIGITAL EXPERIENCES</span><span id="ux-position" aria-live="polite">01 / 05</span></div>
         <div class="ux-feature">
@@ -73,13 +114,13 @@
     </section>
 
     <section class="motion-section wrap" id="movimiento" aria-labelledby="motion-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">04 /</span> VIDEO & MOTION</p><h2 id="motion-title">Diseño en<br><span>movimiento.</span></h2></div><p class="section-note">Edición y montaje de material audiovisual de las marcas para llevar las ideas más allá de una imagen.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">05 /</span> VIDEO & MOTION</p><h2 id="motion-title">Diseño en<br><span>movimiento.</span></h2></div><p class="section-note">Edición y montaje de material audiovisual de las marcas para llevar las ideas más allá de una imagen.</p></div>
       <div id="videos"></div>
       <p class="credit-note">Edición y cortes: Luis Refugio · Material audiovisual proporcionado por las marcas · Estrasol</p>
     </section>
 
     <section class="institutional-section wrap" id="institucionales" aria-labelledby="institutional-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">05 /</span> VIDEOS INSTITUCIONALES</p><h2 id="institutional-title">Historias que comunican.<br><span>Valores que conectan.</span></h2></div><p class="section-note">Contenido audiovisual para Fresenius y Toyota Guanajuato. Comunicación de producto, cultura organizacional y valores de marca.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">06 /</span> VIDEOS INSTITUCIONALES</p><h2 id="institutional-title">Historias que comunican.<br><span>Valores que conectan.</span></h2></div><p class="section-note">Contenido audiovisual para Fresenius y Toyota Guanajuato. Comunicación de producto, cultura organizacional y valores de marca.</p></div>
       <div class="institutional-carousel" id="institutional-carousel" role="region" aria-roledescription="carrusel" aria-label="Videos institucionales">
         <div class="institutional-meta"><div><p id="institutional-brand"></p><h3 id="institutional-name"></h3><p class="account-credit">Edición y cortes: Luis Refugio. Material audiovisual de la marca.</p></div><span id="institutional-position" role="status"></span></div>
         <div class="institutional-stage"><button class="institutional-arrow" id="institutional-prev" type="button" aria-label="Video institucional anterior">←</button><div class="laptop-mockup"><div class="laptop-lid"><span class="laptop-camera" aria-hidden="true"></span><div class="laptop-screen"><video id="institutional-player" controls playsinline preload="metadata"></video></div></div><div class="laptop-base" aria-hidden="true"></div></div><button class="institutional-arrow" id="institutional-next" type="button" aria-label="Video institucional siguiente">→</button></div>
@@ -90,13 +131,13 @@
     </section>
 
     <section class="ai-section wrap" id="ia-marcas" aria-labelledby="ai-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">06 /</span> IA APLICADA A MARCAS</p><h2 id="ai-title">Nuevas herramientas.<br><span>La misma intención creativa.</span></h2></div><p class="section-note">Avatares y contenido audiovisual con inteligencia artificial para explorar otras formas de comunicar la personalidad de una marca.<br><span class="ai-badge">CONTENIDO CREADO CON IA</span></p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">07 /</span> IA APLICADA A MARCAS</p><h2 id="ai-title">Nuevas herramientas.<br><span>La misma intención creativa.</span></h2></div><p class="section-note">Avatares y contenido audiovisual con inteligencia artificial para explorar otras formas de comunicar la personalidad de una marca.<br><span class="ai-badge">CONTENIDO CREADO CON IA</span></p></div>
       <div id="ai-videos"></div>
       <p class="credit-note">Selección de contenido con IA, dirección visual y edición para marcas · Luis Refugio · Estrasol</p>
     </section>
 
     <section class="retouch-section wrap" id="retoque" aria-labelledby="retouch-title">
-      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">07 /</span> FOTOS RETOCADAS</p><h2 id="retouch-title">La misma toma.<br><span>Otra intención.</span></h2></div><p class="section-note">Antes y después del retoque fotográfico. Desliza sobre la imagen para descubrir la transformación.</p></div>
+      <div class="section-heading"><div><p class="eyebrow"><span class="section-index">08 /</span> FOTOS RETOCADAS</p><h2 id="retouch-title">La misma toma.<br><span>Otra intención.</span></h2></div><p class="section-note">Antes y después del retoque fotográfico. Desliza sobre la imagen para descubrir la transformación.</p></div>
       <div class="retouch-panel">
         <div class="retouch-toolbar"><span id="retouch-position"></span><span>ORIGINAL / RETOQUE FINAL</span></div>
         <div class="retouch-stage" id="retouch-compare"><img id="retouch-after" alt="Fotografía retocada" draggable="false"><img class="retouch-original" id="retouch-before" alt="Fotografía original" draggable="false"><span class="retouch-label retouch-before-label">ANTES</span><span class="retouch-label retouch-after-label">DESPUÉS</span><span class="retouch-divider" aria-hidden="true"></span><input id="retouch-range" type="range" min="0" max="100" value="50" step="1" aria-label="Comparar antes y después" aria-describedby="retouch-help"></div>
@@ -106,7 +147,7 @@
     </section>
 
     <section class="about-section" id="sobre-mi" aria-labelledby="about-title"><div class="wrap">
-      <p class="eyebrow"><span class="section-index">08 /</span> DETRÁS DEL DISEÑO</p>
+      <p class="eyebrow"><span class="section-index">09 /</span> DETRÁS DEL DISEÑO</p>
       <div class="about-layout"><div class="about-intro"><h2 id="about-title">Hola, soy Luis<span>.</span></h2><p class="about-lead">Diseñador gráfico digital<br>y multimedia.</p><p>Combino diseño gráfico, producción audiovisual e inteligencia artificial para crear experiencias visuales y contenido digital adaptado a cada marca.</p><p>A lo largo de mi trayectoria he colaborado con agencias, equipos de contenido y desarrollo, participando en proyectos de identidad visual, campañas digitales, multimedia y comunicación para distintas marcas.</p><a class="button dark-button" href="assets/CV-Luis-Refugio.pdf" download>Descargar mi CV <span aria-hidden="true">↓</span></a></div>
       <div class="about-experience"><div class="experience-number"><strong>7<span>+</span></strong><p>Años de experiencia<br>en diseño y comunicación visual</p></div><h3>Mi trayectoria</h3><ol class="timeline"><li><div><h4>Estrasol</h4><p>Diseñador gráfico</p></div><span>2022 — Actualidad</span></li><li><div><h4>Raíces de Orgullo</h4><p>Diseñador gráfico freelance</p></div><span>2026 — Actualidad</span></li><li><div><h4>MQV</h4><p>Diseñador gráfico y web</p></div><span>2019 — 2022</span></li></ol></div></div>
 </div></section>
@@ -116,6 +157,7 @@
   <footer class="footer wrap"><a class="footer-name" href="#inicio">Luis Refugio<span>↗</span></a><p>Diseño gráfico & multimedia · Veracruz, México</p><a href="#inicio">Volver arriba ↑</a><small>© <span id="year">2026</span> Luis Refugio. Las marcas pertenecen a sus respectivos propietarios.</small></footer>
 
   <dialog id="project-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description"><div class="dialog-layout"><div class="dialog-header"><div><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2></div><form method="dialog"><button class="close-button" aria-label="Cerrar galería" autofocus>✕</button></form></div><p id="dialog-description"></p><p class="account-credit" id="dialog-authorship"></p><div class="gallery-stage"><button class="gallery-arrow previous" type="button" aria-label="Pieza anterior">←</button><img id="gallery-image" src="assets/eurobike-1.webp" alt=""><button class="gallery-arrow next" type="button" aria-label="Pieza siguiente">→</button></div><div class="gallery-bottom"><p id="gallery-caption"></p><p id="gallery-counter" aria-live="polite"></p></div><p class="dialog-credit">Concepto visual y diseño: Luis Refugio · Textos: equipo de contenido · Realizado en Estrasol</p></div></dialog>
+  <dialog id="packaging-dialog" aria-labelledby="packaging-dialog-title" aria-describedby="packaging-dialog-desc"><div class="dialog-layout packaging-dialog-layout"><div class="dialog-header"><div><p class="eyebrow">PACKAGING & DISEÑO DE EMPAQUE</p><h2 id="packaging-dialog-title">Tequila Raíces de Orgullo</h2></div><form method="dialog"><button class="close-button" aria-label="Cerrar detalle de empaque" autofocus>✕</button></form></div><p id="packaging-dialog-desc" class="packaging-dialog-note"></p><div class="packaging-dialog-stage"><img id="packaging-dialog-image" src="assets/packaging/caja-wixarika-anejo-cristalino.png" alt="Detalle del empaque"></div><div class="packaging-dialog-footer"><div class="packaging-dialog-tags" id="packaging-dialog-tags"></div><p class="account-credit">Diseño de empaque y dirección visual: Luis Refugio · Raíces de Orgullo · Proyecto freelance</p></div></div></dialog>
   <dialog id="ux-dialog" aria-labelledby="ux-dialog-title"><div class="dialog-layout"><div class="dialog-header"><div><p class="eyebrow">DISEÑO UX/UI</p><h2 id="ux-dialog-title">Legal Key</h2></div><form method="dialog"><button class="close-button" aria-label="Cerrar diseño UX/UI" autofocus>✕</button></form></div><img id="ux-dialog-image" src="assets/ux/legal-key-full.webp" alt=""><div class="ux-dialog-footer"><p>Vista del diseño</p><span>Desplázate para recorrer la captura completa</span></div></div></dialog>
   <noscript><p class="noscript-note">Para explorar las galerías y videos, activa JavaScript en tu navegador. Puedes descargar mi CV o contactarme por correo.</p></noscript>
 </body>
